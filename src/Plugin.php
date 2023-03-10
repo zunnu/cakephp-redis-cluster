@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Kgbph\RedisCluster;
+namespace CakeRedisCluster
 
 use Cake\Core\BasePlugin;
 
