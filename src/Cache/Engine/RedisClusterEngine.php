@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Kgbph\RedisCluster\Cache\Engine;
+namespace CakeRedisCluster\Cache\Engine;
 
 use Cake\Cache\Engine\RedisEngine;
 use Cake\Log\Log;
