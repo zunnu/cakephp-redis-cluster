@@ -11,7 +11,7 @@ You can install this plugin into your CakePHP application using [composer](https
 The recommended way to install composer packages is:
 
 ```
-composer require kgbph/cakephp-redis-cluster
+composer require zunnu/cake-redis-cluster
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ Use as a cache engine. See [CakePHP Caching](https://book.cakephp.org/3/en/core-
 
 ``` php
 Cache::setConfig('redis', [
-    'className' => 'Kgbph/RedisCluster.RedisCluster',
+    'className' => 'CakeRedisCluster.RedisCluster',
     'nodes' => [
         'redis-node-0:6379',
         'redis-node-1:6379',
