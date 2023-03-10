@@ -1,11 +1,11 @@
 {
-    "name": "kgbph/cakephp-redis-cluster",
+    "name": "zunnu/cakephp-redis-cluster",
     "description": "Redis cluster cache storage plugin for CakePHP",
     "type": "cakephp-plugin",
     "license": "MIT",
     "require": {
         "php": ">=7.4",
-        "cakephp/cakephp": "~3.8.0",
+        "cakephp/cakephp": "^3.8.0",
         "ext-intl": "*",
         "ext-redis": "*"
     },
