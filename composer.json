@@ -1,5 +1,5 @@
 {
-    "name": "zunnu/cakephp-redis-cluster",
+    "name": "zunnu/cake-redis-cluster",
     "description": "Redis cluster cache storage plugin for CakePHP",
     "type": "cakephp-plugin",
     "license": "MIT",
@@ -29,12 +29,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kgbph\\RedisCluster\\": "src/"
+            "CakeRedisCluster\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kgbph\\RedisCluster\\Test\\": "tests/",
+            "CakeRedisCluster\\Test\\": "tests/",
             "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
         }
     },
